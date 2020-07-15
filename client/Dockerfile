@@ -1,5 +1,6 @@
 FROM node:alpine
 
+ENV CI=true
 
 WORKDIR /app
 
